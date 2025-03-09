@@ -7,15 +7,24 @@ export default defineConfig({
   timeout : 40 * 1000,
   use: {
     browserName : 'chromium',
-    headless : false
+    headless : false,
+    launchOptions: {
+      args: ['--start-maximized'],  
+    },
+    viewport: null,
   },
   projects:[
     {
       name : 'UI test',
-      testDir: './tests/UItest.spec.js',
-      grep: /UI testing/,
+      testDir: './tests/',
+      //grep: /UI testing/,
     }
   ],
-  reporter : 'html'
+  //reporter : 'html'
+  reporter: [
+    ['line'],
+    ['allure-playwright', { resultsDir: 'allure-results' }]
+  ],
 });
 module.exports
+
