@@ -1,0 +1,259 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: First test
+- Location: C:\Users\2394032\OneDrive - Cognizant\Desktop\project1\playwrightTrain\tests\UItest.spec.js:5:1
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: ""
+Received: [Function title]
+    at C:\Users\2394032\OneDrive - Cognizant\Desktop\project1\playwrightTrain\tests\UItest.spec.js:9:19
+```
+
+# Page snapshot
+
+```yaml
+- img "glo"
+- paragraph: Um diese Website besuchen zu dürfen, musst du 18 Jahre oder älter sein
+- paragraph: Bitte bestätige jetzt dein Alter*
+- button "Ich bin jünger als 18 Jahre"
+- button "Ich bin 18 Jahre oder älter"
+- banner:
+  - paragraph:
+    - img "medal"
+    - text: Von Wissenschaftlern getestet
+  - paragraph:
+    - img "delivery"
+    - text: Versandkostenfrei ab 50€
+  - paragraph:
+    - img "safety"
+    - text: 30-Tage-Zufriedenheitsgarantie
+  - navigation:
+    - menu:
+      - listitem:
+        - menuitem "Shop"
+      - listitem:
+        - menuitem "HEATER"
+      - listitem:
+        - menuitem "TABAK STICKS"
+      - listitem:
+        - menuitem "veo™ STICKS"
+      - listitem:
+        - menuitem "ZUBEHÖR"
+      - menuitem "Meet Glo™ 30 Tage Testen Inspiration Club":
+        - listitem:
+          - link "Meet Glo™"
+        - listitem:
+          - link "30 Tage Testen"
+        - listitem:
+          - link "Inspiration Club"
+  - link "store logo":
+    - img "glo"
+  - text: 
+  - link ""
+  - link ""
+- main:
+  - img
+  - link "JETZT SICHERN"
+  - img
+  - link "JETZT ENTDECKEN"
+  - img
+  - link "JETZT ENTDECKEN"
+  - img
+  - link "MEHR ERFAHREN"
+  - img
+  - link "JETZT SPAREN"
+  - img
+  - link "JETZT KAUFEN"
+  - img
+  - link "JETZT MITMACHEN"
+  - img
+  - link "JETZT SICHERN"
+  - img
+  - link "JETZT ENTDECKEN"
+  - img
+  - link "JETZT ENTDECKEN"
+  - img
+  - link "MEHR ERFAHREN"
+  - img
+  - link "JETZT SPAREN"
+  - img
+  - link "JETZT KAUFEN"
+  - img
+  - link "JETZT MITMACHEN"
+  - img
+  - link "JETZT SICHERN"
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - heading "HOT DEAL FÜR DEINEN START" [level=4]
+  - paragraph: Hol dir jetzt einen glo™ Heater für 19 €* ! Bei Newsletter-Registrierung erhältst du außerdem 4 Packs nach Wahl gratis* !
+  - link "DEAL SICHERN"
+  - heading "Was ist glo™ und warum solltest Du Dich dafür entscheiden?" [level=2]
+  - img
+  - link "MEHR ERFAHREN"
+  - heading "100% Geschmack. Echter Tabak. Kein Rauchgeruch.**" [level=2]
+  - img
+  - link "JETZT ENTDECKEN"
+  - heading "Deutlich intuitiver.*** EasyView™ Display." [level=2]
+  - heading "Bestsellers" [level=2]
+  - link "glo™ Hyper Pro":
+    - img "glo™ Hyper Pro"
+  - strong:
+    - link "glo™ Hyper Pro"
+  - text: 29,00 €
+  - listbox "Farbe":
+    - option "Burgundy" [checked]
+    - button:
+      - img
+  - button "Hinzufügen"
+  - link:
+    - img
+  - strong:
+    - link "veo™ Scarlet Click"
+  - text: 6,00 €
+  - button "Hinzufügen"
+  - link:
+    - img
+  - strong:
+    - link "veo™ Arctic Click"
+  - text: 6,00 €
+  - button "Hinzufügen"
+  - heading "Shop" [level=2]
+  - img
+  - heading "HEATER" [level=2]
+  - link "Mehr entdecken"
+  - img
+  - heading "STICKS" [level=2]
+  - link "Mehr entdecken"
+  - img
+  - heading "ZUBEHÖR" [level=2]
+  - link "Mehr entdecken"
+  - img
+  - heading "30 Tage Kostenlos Testen" [level=2]
+  - paragraph: Teste den Heater 30 Tage lang - wir sind sicher, du wirst überzeugt sein! Und wenn nicht, sende dein Gerät kostenfrei zurück. Sichere dir zusätzlich bei Newsletter Registrierung 4 Probier-Packs! Um dein 30 Tage Testen Angebot einlösen zu können, musst du für den Newsletter registriert sein.
+  - link "JETZT GRATIS TESTEN"
+  - paragraph:
+    - strong: "01"
+  - paragraph:
+    - strong: AUSSUCHEN
+  - paragraph: glo™ Heater in deiner Lieblingsfarbe wählen.
+  - paragraph:
+    - strong: "02"
+  - paragraph:
+    - strong: BESTELLEN FÜR 0€
+  - paragraph:
+    - text: Bezahle nur, wenn du das Gerät behalten willst.
+    - strong: "Willkommensangebot:"
+    - text: Hol dir den glo™ Hyper Pro Heater für nur 19 €* statt 29 € !*
+  - paragraph:
+    - strong: "03"
+  - paragraph:
+    - strong: 30 TAGE PROBIEREN
+  - paragraph: Wenn es nicht passt, sende das Gerät kostenfrei zurück.
+  - heading "MEET GLO™" [level=2]
+  - paragraph: glo™ bringt Genuss auf ein neues Level.
+  - heading [level=3]
+  - paragraph
+  - list:
+    - listitem:
+      - link "glo™ Heater im Winter":
+        - img "glo™ Heater im Winter"
+      - text: In 5 Minuten gelesen
+      - 'link "glo™ Heater im Winter: Tipps für die kalte Jahreszeit"'
+      - paragraph: So funktioniert dein glo™ Heater im Winter zuverlässig. Alles über Schutz vor Kälte, Schnee & Rauchverbot in der Öffentlichkeit – jetzt lesen!
+      - link ""
+    - listitem:
+      - link "glo-und-rauchen-in-der-wohnung":
+        - img "glo-und-rauchen-in-der-wohnung"
+      - text: In 5 Minuten gelesen
+      - link "Worauf du beim Glo’n und Rauchen in der Wohnung achten solltest"
+      - paragraph: Tabakerhitzer von glo™ bieten eine Alternative zum klassischen Rauchen in der Wohnung.
+      - link ""
+    - listitem:
+      - link "rauchen alternative - umstieg auf glo - glo device + neo sticks":
+        - img "rauchen alternative - umstieg auf glo - glo device + neo sticks"
+      - text: In 5 Minuten gelesen
+      - 'link "Alternative zum Rauchen: So funktioniert der Umstieg auf glo™"'
+      - paragraph: Glo'n statt Rauchen. Lies hier, was sich durch einen Umstieg auf glo™ ändert und was gleich bleibt.
+      - link ""
+  - link "Finde mehr heraus"
+  - paragraph
+  - paragraph:
+    - emphasis: "*Das Angebot gilt für Neukunden bei Erstregistrierung und ist ab dem 01.08.2024 für begrenzte Zeit gültig, solange der Vorrat reicht. Das Angebot beinhaltet das Gerät für 19 € und enthält den Versand. Es gibt 4 Gratispacks nach Wahl für die Newsletter-Registrierung."
+  - paragraph:
+    - emphasis: "**glo™ erhitzt Tabak anstatt ihn zu verbrennen. Dabei entsteht ein Tabakaerosol, weniger Geruch und keine Asche im Vergleich zu einer gerauchten Zigarette. Dieses Produkt ist nicht risikofrei und enthält Nikotin, eine abhängig machende Substanz."
+  - paragraph:
+    - emphasis: "***Dieses Produkt ist nicht risikofrei und enthält Nikotin, eine abhängig machende Substanz."
+  - paragraph:
+    - emphasis: "****Im Vergleich zum glo™ Hyper X2 Standard-Modus. Dieses Produkt ist nicht risikofrei und enthält Nikotin, eine abhängig machende Substanz."
+  - paragraph
+- contentinfo:
+  - text: Wir suchen Dich!
+  - paragraph: Du möchtest die Glo Erfolgsstory in Deutschland mitgestalten?
+  - paragraph:
+    - text: Dann werde Teil des Teams
+    - link "careers.bat.com"
+  - link "BeTheChange"
+  - heading " Kundenservice" [level=4]:
+    - link " Kundenservice"
+  - heading " Über glo™" [level=4]:
+    - link " Über glo™"
+  - paragraph: BRAUCHST DU HILFE?
+  - text: 
+  - link "0800 6945633 (KOSTENFREI)"
+  - text: 
+  - link "support@myglo.de"
+  - img "GLO™"
+  - paragraph: ©British American Tobacco 2024. Alle Rechte vorbehalten.
+  - link ""
+  - link ""
+- img "Pixel"
+- text: Cookie-Einstellungen
+- alertdialog "WIR VERWENDEN COOKIES":
+  - heading "WIR VERWENDEN COOKIES" [level=2]
+  - paragraph:
+    - text: Wenn Du alle Cookies akzeptierst oder in den Cookie-Einstellungen einzelne Cookies auswählst, willigst Du ein in die Speicherung und das Auslesen von technisch nicht notwendigen Cookies auf Deinem Gerät, in die Verarbeitung Deiner zum Cookie gespeicherten personenbezogenen Daten sowie in eine Übermittlung dieser Daten in Staaten, in denen kein der EU vergleichbares Datenschutzniveau gewährleistet ist, so insbesondere den USA. Nähere Informationen zum Gegenstand Deiner Einwilligungen findest Du in unseren
+    - link "Datenschutzbestimmungen"
+    - text: sowie unter „Cookie-Einstellungen“. Wir verwenden Cookies, um Deine Präferenzen bei der Nutzung unserer Website zu speichern, ein Nutzungsverhalten statistisch zu analysieren und um Dir personalisierte Werbung auf Websites oder sozialen Medien Dritter anzuzeigen. Diese Daten können von uns und unseren Partnern verwendet werden, um Nutzungsprofile anzureichern. Du kannst Deine Einwilligungen jederzeit, jedoch nur mit Wirkung für die Zukunft widerrufen. Klicke hierzu bitte auf das Cookie-Symbol links unten auf unserer Website.
+  - button "Cookie-Einstellungen"
+  - button "Alle ablehnen"
+  - button "Alle akzeptieren"
+```
+
+# Test source
+
+```ts
+   1 | const{test, expect} = require('@playwright/test');
+   2 | const { match } = require('assert');
+   3 | // test.describe('UI testing',()=>
+   4 | // {
+   5 | test ('First test',async ({page})=>{
+   6 |     await page.goto("https://www-cen-uat1-glo.non-prod.marketing.bat.net/de/de/");
+   7 |     const title = await page.title;
+   8 |     console.log('Page Title:', title);
+>  9 |     expect(title).toBe('');
+     |                   ^ Error: expect(received).toBe(expected) // Object.is equality
+  10 |     const { width, height } = await page.evaluate(() => {
+  11 |         return {
+  12 |           width: window.screen.width,
+  13 |           height: window.screen.height
+  14 |         };
+  15 |       });
+  16 |       await page.setViewportSize({ width, height });
+  17 |       /*i am doing this to see my changes in github dtydy*/
+  18 | })
+```
