@@ -7,6 +7,7 @@ test ('First test',async ({page})=>{
     const tit = await page.title();
     //console.log('Page Title:', tit);
     expect(tit).toBe('Heater von glo™: Unsere Alternative für Raucher | glo ™');
+    /* the changes are made from ccr to vishnu*/
     
 })
 })
